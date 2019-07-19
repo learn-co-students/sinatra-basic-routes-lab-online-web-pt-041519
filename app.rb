@@ -7,12 +7,10 @@ class App < Sinatra::Base
     end
 
     get '/hometown' do
-        status = 200
         "My hometown is Teaneck"
     end
 
     get '/favorite-song' do
-        status = 200
         "My favorite song is 'Baby Shark'"
     end
 end
